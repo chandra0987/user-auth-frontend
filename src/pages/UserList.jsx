@@ -1,5 +1,5 @@
 import { useState, useEffect, useContext } from "react";
-import UserContext from "../context/UserContext.js";
+import UserContext from "../context/UserContext.jsx";
 import axios from "../config/axios.js";
 
 export default function UserList() {

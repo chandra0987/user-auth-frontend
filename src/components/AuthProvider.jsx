@@ -1,5 +1,5 @@
 import { useReducer ,useEffect } from "react";
-import UserContext from "../context/Usercontext";
+import UserContext from "../context/UserContext.jsx";
 import axios from "../config/axios";
 import { useNavigate } from "react-router-dom";
 const userReducer = (state, action) => {

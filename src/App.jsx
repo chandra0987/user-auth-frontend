@@ -1,7 +1,7 @@
 import "./App.css";
 import { Link, Routes, Route } from "react-router-dom";
 import { useContext } from "react";
-import  UserContext  from "./context/UserContext.js";
+import  UserContext  from "./context/UserContext.jsx";
 import Home from "./pages/Home";
 import Dashboard from "./pages/Dashboard";
 import Login from "./pages/Login";
