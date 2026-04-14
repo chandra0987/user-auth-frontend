@@ -1,6 +1,6 @@
 import { useFormik } from "formik";
 import { useContext } from "react";
-import UserContext from "../context/Usercontext";
+import UserContext from "../context/UserContext";
 
 export default function Register() {
     const { handleRegister , serverErrors} = useContext(UserContext);
